@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    <title>Reviews</title>
+</head>
+<body>
+	<nav>
+        <div>
+            <ul>
+                <li><a href="index.html">Travel Blog</a></li>
+                <li><a href="new_york.html">New York</a></li>
+                <li><a href="mexico.html">Mexico</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <h1 class="title"> Reviews</h1>
+    </header>
+	<main>
+        <div class="flex">
+            <a href="new_york.html" class="text-decoration-none">
+                <div class="card" onmouseover="changeBorder(this)" onmouseout="resetBorder(this)" style="width: 18rem;">
+                    <img class="card-img-top" src="images/new_york/first_time.jpg" alt="Picture of 2 girls">
+                    <div class="card-body">
+                    <h5 class="card-title"> New York </h5>
+                    <h6> 10/14/22</h6>
+                    <p class="card-text">Went with Maddie for our Fall Break and stayed for 4 days.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="new_york.html" class="text-decoration-none">
+                <div class="card" onmouseover="changeBorder(this)" onmouseout="resetBorder(this)" style="width: 18rem;" >
+                    <img class="card-img-top" src="images/new_york/second_time.jpg" alt="Picture of 3 girls">
+                    <div class="card-body">
+                        <h5 class="card-title"> New York </h5>
+                    <h6> 02/23/23</h6>
+                    <p class="card-text">Went with Maddie and Isabella for our Sophomore year spring break.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="new_york.html" class="text-decoration-none">
+                <div class="card" onmouseover="changeBorder(this)" onmouseout="resetBorder(this)" style="width: 18rem;">
+                    <img class="card-img-top" src="images/new_york/third_time.jpg" alt="Picture of 4 girls">
+                    <div class="card-body">
+                        <h5 class="card-title"> New York </h5>
+                    <h6> 05/11/24</h6>
+                    <p class="card-text">Went with Maddie, Beth, and Cathy for Beth's 50th birthday.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="mexico.html" class="text-decoration-none">
+                <div class="card" onmouseover="changeBorder(this)" onmouseout="resetBorder(this)" style="width: 18rem;">
+                    <img class="card-img-top" src="images/mexico/group_pic.JPG" alt="Picture of 7 girls">
+                    <div class="card-body">
+                        <h5 class="card-title"> Cancun, Mexico</h5>
+                    <h6> 02/23/24</h6>
+                    <p class="card-text">Went to all inclusive resort with roommates for our junior year spring break.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <iframe src="https://giphy.com/embed/Xev2JdopBxGj1LuGvt" width="60" height="60" style="margin:0" class="giphy-embed" allowFullScreen></iframe>
+        <div class="right-content">
+            <button onclick="backToTop()" id="backToTopBtn" title="Go to top">Go Back to the Top</button>
+        </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
